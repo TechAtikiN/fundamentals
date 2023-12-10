@@ -1,4 +1,3 @@
-# Dev Fundamentals
+# Templates
 
-> This is a collection of projects and quick exercises that maybe you can find helpful.
-> It covers building basic tools and applications in Vanilla JavaScript, React (JS library), Next.js(React.js framework).
+> This branch consists of basic setup for a new React,js and Next.js project.
