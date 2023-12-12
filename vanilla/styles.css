@@ -1,0 +1,70 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* heading text */
+.heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+/* container with comment listing and preview  */
+.container {
+  background-color: seashell;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 4px 4px 4px 4px lightgrey;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+/* outer layout of comments listing  */
+.comments-layout {
+  display:  flex;
+  flex-direction: column;
+  border-right: 1px solid lightgrey;
+  padding: 10px;
+}
+
+/* comment listing   */
+.comments-list {
+  display: grid;
+  align-self: self-start;
+  gap: 15px;
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* individual comment */
+.comment {
+  display: flex;
+  padding: 5px;
+  font-size: larger;
+  background-color:bisque;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+/* hover effects for comment */
+.comment:hover {
+  background-color: sandybrown;
+  cursor: pointer;
+}
+
+/* preview of selected comment */
+.preview {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  /* span the preview container to full width */
+  grid-column: span 3;
+}
